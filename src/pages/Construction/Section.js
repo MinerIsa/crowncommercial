@@ -118,7 +118,7 @@ const Section = () => {
               xs={{ order: 2 }}
               className=""
             >
-              <Card className="rounded shadow-lg border-0">
+              <Card className="rounded border-0 shadow-lg">
                 <CardBody>
                   <div className="pb-3">
                     <h4 className="card-title fw-bold">
