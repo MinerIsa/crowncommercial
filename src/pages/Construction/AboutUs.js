@@ -60,7 +60,7 @@ export default class AboutUs extends Component {
   render() {
     return (
       <React.Fragment>
-        <Container className="mt-100 mt-60" id="about-us">
+        <Container className="mt-5 mt-60" id="about-us">
           <Row className="align-items-center">
             <Col lg={5} md={6} xs={12}>
               <div className="position-relative">

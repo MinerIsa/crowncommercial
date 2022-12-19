@@ -57,7 +57,7 @@ export default class index extends Component {
         <Services />
 
         {/* About Us */}
-        <section className="section pb-5 pt-1 mt-5 bg-light">
+        <section className="section pb-5 pt-1 bg-light">
           <AboutUs />
         </section>
         <Reviews />
