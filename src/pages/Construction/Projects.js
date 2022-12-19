@@ -169,8 +169,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('All')}
                         className={
                           this.state.displayCategory === 'All'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded '
+                            ? 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white active'
+                            : 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white '
                         }
                       >
                         All
@@ -179,8 +179,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('Parking Lots')}
                         className={
                           this.state.displayCategory === 'Parking Lots'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded'
+                            ? 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white active'
+                            : 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white'
                         }
                       >
                         Parking Lots
@@ -189,8 +189,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('Warehouses')}
                         className={
                           this.state.displayCategory === 'Warehouses'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded'
+                            ? 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white active'
+                            : 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white'
                         }
                       >
                         Warehouses
@@ -199,8 +199,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('Garages')}
                         className={
                           this.state.displayCategory === 'Garages'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded'
+                            ? 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white active'
+                            : 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white'
                         }
                       >
                         {' '}
@@ -210,8 +210,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('Gas Stations')}
                         className={
                           this.state.displayCategory === 'Gas Stations'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded'
+                            ? 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white active'
+                            : 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white'
                         }
                       >
                         {' '}
@@ -221,8 +221,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('Offices')}
                         className={
                           this.state.displayCategory === 'Offices'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded'
+                            ? 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white active'
+                            : 'list-inline-item categories-name border text-dark rounded shadow-sm bg-white'
                         }
                       >
                         {' '}
@@ -232,8 +232,8 @@ class Projects extends Component {
                         onClick={() => this.setCategory('Residential')}
                         className={
                           this.state.displayCategory === 'Residential'
-                            ? 'list-inline-item categories-name border text-dark rounded active'
-                            : 'list-inline-item categories-name border text-dark rounded'
+                            ? 'list-inline-item categories-name border text-dark rounded bg-white shadow-sm active'
+                            : 'list-inline-item categories-name border text-dark rounded bg-white shadow-sm'
                         }
                       >
                         {' '}
@@ -260,7 +260,7 @@ class Projects extends Component {
                         <FadeIn delay={100}>
                           <Card className="bg-white border-0 work-container work-classic shadow-lg overflow-hidden">
                             <div className="mt-3 ms-lg-4 ms-md-3">
-                              <h4 className=" para-desc">{title1}</h4>
+                              <h4 className="para-desc">{title1}</h4>
                               <p className="text-muted para-desc">{desc}</p>
                             </div>
                             {image2 ? (
@@ -273,7 +273,7 @@ class Projects extends Component {
                                         className="img-fluid work-image p-0"
                                       />
                                     </Link>
-                                    <div className="content p-4">
+                                    <div className="content p-4 text-center">
                                       <h5 className="mb-0">
                                         <Link
                                           to="page-work-detail"
@@ -296,7 +296,7 @@ class Projects extends Component {
                                         className="img-fluid work-image"
                                       />
                                     </Link>
-                                    <div className="content p-4">
+                                    <div className="content p-4 text-center">
                                       <h5 className="mb-0">
                                         <Link
                                           to="page-work-detail"

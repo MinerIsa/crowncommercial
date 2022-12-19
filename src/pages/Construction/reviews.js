@@ -71,7 +71,10 @@ class Reviews extends Component {
   render() {
     return (
       <React.Fragment>
-        <Container className="mt-100">
+        <Container
+          className="shadow-lg my-5 px-5 py-5 rounded"
+          style={{ backgroundColor: '#9dce66 ' }}
+        >
           {/* section title */}
           <SectionTitle
             title="What our clients say..."

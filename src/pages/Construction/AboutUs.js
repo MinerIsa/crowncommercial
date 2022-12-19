@@ -129,7 +129,7 @@ export default class AboutUs extends Component {
             <Col className="mt-4 pt-2 mt-sm-0 pt-sm-0">
               <div className="rounded shadow bg-white shadow-lg">
                 <Row className="justify-content-center">
-                  <Col className="text-center py-4 mt-0">
+                  <Col className="text-center py-3 px-5">
                     {/* <img src={amazon} className="avatar avatar-ex-sm" alt="" /> */}
                     <h6 className="text-danger">Authorized Service Provider</h6>
                     <p>

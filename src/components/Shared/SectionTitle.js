@@ -30,7 +30,7 @@ class SectionTitle extends Component {
         <Row className="justify-content-center">
           <Col className={this.props.isLeft ? '' : 'col-12 text-center'}>
             <div className="section-title mb-4 pb-2">
-              <h4 className="title mb-4"> {this.props.title}</h4>
+              <h4 className="title mb-4 text-white"> {this.props.title}</h4>
               <p
                 className={
                   this.props.isLeft
