@@ -18,7 +18,8 @@ import {
 } from 'reactstrap';
 
 //import bg image
-import bg_image from '../../assets/images/construction/bg.jpg';
+// import bg_image from '../../assets/images/construction/bg.jpg';
+import bg_image from '../../assets/images/construction/bg4.png';
 import FeatherIcon from 'feather-icons-react';
 import emailjs, { send } from '@emailjs/browser';
 
@@ -97,7 +98,10 @@ const Section = () => {
         <Container>
           <Row className="mt-5 mt-md-4">
             <Col className="d-flex align-items-center">
-              <div className="title-heading">
+              <div
+                className="title-heading p-3"
+                // style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
+              >
                 <h4 className="display-4 mb-4 fw-bold text-white title-dark">
                   Experience <br /> a brighter future
                 </h4>
