@@ -194,7 +194,15 @@ const Section = () => {
                 // style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
               >
                 <h1 className="display-3 fw-bold mb-3">
-                  <span style={{ color: '#9dce66' }}>Experience</span> <br />
+                  <span
+                    style={{
+                      color: '#9dce66',
+                      textShadow: '1px 1px 25px #000',
+                    }}
+                  >
+                    Experience
+                  </span>{' '}
+                  <br />
                   <Typist>
                     <span className="text-white element">Better Lighting</span>
                     <Typist.Backspace count={15} delay={300} />
