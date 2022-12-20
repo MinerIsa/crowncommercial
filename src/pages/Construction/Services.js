@@ -20,21 +20,6 @@ export default class ProjectPlanning extends Component {
                         <Col md={6} xs={12}>
                           <div className="d-flex features feature-primary p-4">
                             <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
-                              <i className="uil uil-car align-middle h4 mb-0"></i>
-                            </div>
-                            <div className="flex-1">
-                              <h4 className="title">Auto Dealerships</h4>
-                              <p className="text-muted para mb-0">
-                                Let your automobiles shine, and eliminate the
-                                need to change bulbs and ballasts.
-                              </p>
-                            </div>
-                          </div>
-                        </Col>
-
-                        <Col md={6} xs={12}>
-                          <div className="d-flex features feature-primary p-4">
-                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
                               <i className="uil uil-box align-middle h4 mb-0"></i>
                             </div>
                             <div className="flex-1">
@@ -49,21 +34,6 @@ export default class ProjectPlanning extends Component {
                         <Col md={6} xs={12}>
                           <div className="d-flex features feature-primary p-4">
                             <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
-                              <i className="uil uil-pump align-middle h4 mb-0"></i>
-                            </div>
-                            <div className="flex-1">
-                              <h4 className="title">Gas Stations</h4>
-                              <p className="text-muted para mb-0">
-                                Improve station appearance and safety, and
-                                reduce your electric bill.
-                              </p>
-                            </div>
-                          </div>
-                        </Col>
-
-                        <Col md={6} xs={12}>
-                          <div className="d-flex features feature-primary p-4">
-                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
                               <i className="uil uil-building align-middle h4 mb-0"></i>
                             </div>
                             <div className="flex-1">
@@ -75,6 +45,36 @@ export default class ProjectPlanning extends Component {
                             </div>
                           </div>
                         </Col>
+
+                        <Col md={6} xs={12}>
+                          <div className="d-flex features feature-primary p-4">
+                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
+                              <i className="uil uil-pump align-middle h4 mb-0"></i>
+                            </div>
+                            <div className="flex-1">
+                              <h4 className="title">Gas Stations</h4>
+                              <p className="text-muted para mb-0">
+                                Improve station appearance and safety, and
+                                reduce your electric bill.
+                              </p>
+                            </div>
+                          </div>
+                        </Col>
+                        <Col md={6} xs={12}>
+                          <div className="d-flex features feature-primary p-4">
+                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
+                              <i className="uil uil-car align-middle h4 mb-0"></i>
+                            </div>
+                            <div className="flex-1">
+                              <h4 className="title">Auto Dealerships</h4>
+                              <p className="text-muted para mb-0">
+                                Let your automobiles shine, and eliminate the
+                                need to change bulbs and ballasts.
+                              </p>
+                            </div>
+                          </div>
+                        </Col>
+
                         {/* <Col xs={12} className="mt-3 text-center">
                           <p className="text-muted mb-0 text-shadow-lg">
                             Our list of services does not end here. Any size

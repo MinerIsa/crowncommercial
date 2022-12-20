@@ -15,6 +15,7 @@ import visa from '../../assets/images/payments/visa.png';
 //Import Images
 import logolight from '../../assets/images/logo-light.png';
 import logodark from '../../assets/images/logo-dark.png';
+import jarvislogo from '../../assets/images/JarvisLogo.png';
 
 class Footer extends Component {
   constructor(props) {
@@ -93,6 +94,12 @@ class Footer extends Component {
                         Crown Commercial Lighting is an authorized Service
                         Provider for the ComEd® Energy Efficiency Program Small
                         Business offering.
+                      </p>
+                      <p>
+                        Our quality lighting partner:{' '}
+                        <a href="https://www.jarvislighting.com/">
+                          <img style={{ width: '17%' }} src={jarvislogo} />
+                        </a>
                       </p>
                       <ul
                         className={
@@ -217,14 +224,17 @@ class Footer extends Component {
                       </h5>
                       <p className="mt-4">
                         1307 Shermer Rd. Northbrook, IL 60062-4536 <br />
-                        Work: (773) 870-1718
+                        <span className="text-white">Phone:</span> (773)
+                        870-1718
                         <br />
-                        Email: crowncommerciallighting@gmail.com
+                        <span className="text-white">Email:</span>{' '}
+                        crowncommerciallighting@gmail.com
                         <br />
                         <br />
-                        Sales Office Hours:
+                        <span className="text-white">Sales Office Hours:</span>
                         <br />
-                        Monday through Friday 9:00 am. to 5:00 pm. Central Time
+                        Monday - Friday <br />
+                        9:00 AM - 5:00 PM (Central Time)
                       </p>
                       <Form>
                         {/* <Row>

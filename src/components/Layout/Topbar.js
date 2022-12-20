@@ -240,7 +240,9 @@ class Topbar extends Component {
 
             <div
               id="navigation"
-              style={{ display: this.state.isOpen ? 'block' : 'none' }}
+              style={{
+                display: this.state.isOpen ? 'block' : 'none',
+              }}
             >
               <ul className="navigation-menu nav-light" id="top-menu">
                 <li>
@@ -288,38 +290,6 @@ class Topbar extends Component {
             </div>
           </Container>
         </header>
-
-        <Modal
-          isOpen={this.state.wishlistModal}
-          tabIndex="-1"
-          centered
-          contentClassName="rounded shadow-lg border-0 overflow-hidden"
-          toggle={this.toggleWishlistModal}
-        >
-          <ModalBody className="py-5">
-            <div className="text-center">
-              <div
-                className="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
-                style={{ height: '95px', width: '95px' }}
-              >
-                <h1 className="mb-0">
-                  <i className="uil uil-heart-break align-middle"></i>
-                </h1>
-              </div>
-              <div className="mt-4">
-                <h4>Your wishlist is empty.</h4>
-                <p className="text-muted">
-                  Create your first wishlist request...
-                </p>
-                <div className="mt-4">
-                  <Link to="#" className="btn btn-outline-primary">
-                    + Create new wishlist
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </ModalBody>
-        </Modal>
 
         <ReactDrawer
           open={this.state.open}
