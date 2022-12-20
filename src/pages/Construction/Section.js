@@ -27,6 +27,7 @@ import {
 import bg_image from '../../assets/images/construction/bg5.png';
 import FeatherIcon from 'feather-icons-react';
 import emailjs, { send } from '@emailjs/browser';
+import Typist from 'react-typist';
 
 const Section = () => {
   const [succeMsg, setsucceMsg] = useState(false);
@@ -192,19 +193,40 @@ const Section = () => {
                 className="title-heading p-3"
                 // style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
               >
+                <h1 className="display-3 fw-bold mb-3">
+                  <span style={{ color: '#9dce66' }}>Experience</span> <br />
+                  <Typist>
+                    <span className="text-white element">Better Lighting</span>
+                    <Typist.Backspace count={15} delay={300} />
+                    <span className="text-white element">Energy Savings</span>
+                    <Typist.Backspace count={15} delay={300} />
+                    <span className="text-white element">
+                      a Brighter Future
+                    </span>
+                  </Typist>
+                </h1>
+                <p className="para-desc text-white" style={{ opacity: '75%' }}>
+                  Get a customized LED lighting plan for your business, inside
+                  and out.
+                </p>
+              </div>
+              {/* <div
+                className="title-heading p-3"
+                // style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
+              >
                 <h4 className="display-4 mb-4 fw-bold text-white title-dark">
                   Experience <br /> a brighter future
                 </h4>
                 <p className="para-desc text-white" style={{ opacity: '75%' }}>
                   Get a customized LED lighting plan for your business, inside
                   and out.
-                </p>
-                {/* <div className="mt-4 pt-2">
+                </p> */}
+              {/* <div className="mt-4 pt-2">
                   <Link to="#" className="btn btn-primary">
                     Get Started
                   </Link>
                 </div> */}
-              </div>
+              {/* </div> */}
             </Col>
             <Col
               lg="5"
