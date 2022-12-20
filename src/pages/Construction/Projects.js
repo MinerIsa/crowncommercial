@@ -95,14 +95,14 @@ class Projects extends Component {
           subtitle: 'Photography',
           category: 'Offices',
         },
-        {
-          image: work8,
-          title: 'Mockup box with paints',
-          title1: 'Multifamily Residential',
-          desc: 'Crown has installed LED lighting in common areas of numerous multifamily apartment and condo buildings including parking garages, hallways, stairways, parking lots, elevators.',
-          subtitle: 'Photography',
-          category: 'Residential',
-        },
+        // {
+        //   image: work8,
+        //   title: 'Mockup box with paints',
+        //   title1: 'Multifamily Residential',
+        //   desc: 'Crown has installed LED lighting in common areas of numerous multifamily apartment and condo buildings including parking garages, hallways, stairways, parking lots, elevators.',
+        //   subtitle: 'Photography',
+        //   category: 'Residential',
+        // },
       ],
       displayCategory: 'All',
     };
@@ -228,7 +228,7 @@ class Projects extends Component {
                         {' '}
                         Offices
                       </li>
-                      <li
+                      {/* <li
                         onClick={() => this.setCategory('Residential')}
                         className={
                           this.state.displayCategory === 'Residential'
@@ -238,7 +238,7 @@ class Projects extends Component {
                       >
                         {' '}
                         Residential
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

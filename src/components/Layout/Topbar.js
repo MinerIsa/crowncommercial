@@ -275,7 +275,7 @@ class Topbar extends Component {
                 })}
               </ul> */}
               {/* menu end */}
-              <div className="buy-menu-btn d-none">
+              {/* <div className="buy-menu-btn d-none">
                 <Link
                   to="//1.envato.market/landrickreactjs"
                   target="_blank"
@@ -284,7 +284,7 @@ class Topbar extends Component {
                 >
                   Buy Now
                 </Link>
-              </div>
+              </div> */}
             </div>
           </Container>
         </header>
