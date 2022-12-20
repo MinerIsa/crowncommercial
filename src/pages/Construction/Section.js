@@ -163,7 +163,7 @@ const Section = () => {
                             </div>
                             <Input
                               className="form-control ps-5"
-                              placeholder="First Name :"
+                              placeholder="Name :"
                               type="name"
                               name="name"
                               id="name"
