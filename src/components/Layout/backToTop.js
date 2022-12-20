@@ -36,7 +36,7 @@ const BackToTop = () => {
         className="btn btn-icon back-to-top"
         style={{ display: 'none', backgroundColor: '#2f55d4' }}
       >
-        <FeatherIcon icon="arrow-up" className="icons" />
+        <FeatherIcon icon="arrow-up-circle" className="icons" />
       </Link>
     </React.Fragment>
   );
