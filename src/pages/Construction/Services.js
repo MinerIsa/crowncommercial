@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
 
 //import images
-import services from '../../assets/images/construction/electrician1.png';
+import services from '../../assets/images/construction/electrician4.png';
 import 'animate.css/animate.min.css';
 
 export default class ProjectPlanning extends Component {
