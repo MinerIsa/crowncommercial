@@ -28,6 +28,7 @@ import bg_image from '../../assets/images/construction/bg5.png';
 import FeatherIcon from 'feather-icons-react';
 import emailjs, { send } from '@emailjs/browser';
 import Typist from 'react-typist';
+import 'animate.css/animate.min.css';
 
 const Section = () => {
   const [succeMsg, setsucceMsg] = useState(false);

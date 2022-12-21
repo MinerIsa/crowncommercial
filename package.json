@@ -7,6 +7,7 @@
     "@ckeditor/ckeditor5-react": "^5.0.2",
     "@emailjs/browser": "^3.10.0",
     "@iconscout/react-unicons": "^1.1.6",
+    "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "apexcharts": "^3.35.3",
     "availity-reactstrap-validation": "^2.7.1",

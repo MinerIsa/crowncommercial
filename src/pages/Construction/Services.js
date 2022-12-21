@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'reactstrap';
 
 //import images
 import services from '../../assets/images/construction/electrician1.png';
+import 'animate.css/animate.min.css';
 
 export default class ProjectPlanning extends Component {
   render() {
@@ -84,7 +85,10 @@ export default class ProjectPlanning extends Component {
                       </Row>
                     </Col>
 
-                    <Col lg={4} className="d-none d-lg-block position-relative">
+                    <Col
+                      lg={4}
+                      className="d-none d-lg-block position-relative "
+                    >
                       <img
                         src={services}
                         className="img-fluid mx-auto d-block construction-img"
