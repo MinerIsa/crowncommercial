@@ -18,8 +18,8 @@ export default class ProjectPlanning extends Component {
                     <Col lg={8} md={12} className="my-4">
                       <Row>
                         <Col md={6} xs={12}>
-                          <div className="d-flex features feature-primary p-4">
-                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
+                          <div className="d-flex features feature-primary p-4 features1">
+                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md lift-on-hover1">
                               <i className="uil uil-box align-middle h4 mb-0"></i>
                             </div>
                             <div className="flex-1">
@@ -32,8 +32,8 @@ export default class ProjectPlanning extends Component {
                           </div>
                         </Col>
                         <Col md={6} xs={12}>
-                          <div className="d-flex features feature-primary p-4">
-                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
+                          <div className="d-flex features feature-primary p-4 features2">
+                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md lift-on-hover2">
                               <i className="uil uil-building align-middle h4 mb-0"></i>
                             </div>
                             <div className="flex-1">
@@ -47,8 +47,8 @@ export default class ProjectPlanning extends Component {
                         </Col>
 
                         <Col md={6} xs={12}>
-                          <div className="d-flex features feature-primary p-4">
-                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
+                          <div className="d-flex features feature-primary p-4 features3">
+                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md lift-on-hover3">
                               <i className="uil uil-pump align-middle h4 mb-0"></i>
                             </div>
                             <div className="flex-1">
@@ -61,8 +61,8 @@ export default class ProjectPlanning extends Component {
                           </div>
                         </Col>
                         <Col md={6} xs={12}>
-                          <div className="d-flex features feature-primary p-4">
-                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md">
+                          <div className="d-flex features feature-primary p-4 features4">
+                            <div className="icon text-center rounded-circle text-primary me-3 mt-2 shadow-md lift-on-hover4">
                               <i className="uil uil-car align-middle h4 mb-0"></i>
                             </div>
                             <div className="flex-1">

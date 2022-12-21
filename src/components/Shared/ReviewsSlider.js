@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import StarRatings from 'react-star-ratings';
+import { AnimationWrapper } from 'react-hover-animation';
 
 class ReviewsSlider extends Component {
   constructor(props) {
@@ -54,7 +55,7 @@ class ReviewsSlider extends Component {
                                 className="avatar avatar-small client-image rounded shadow"
                                 alt=""
                               /> */}
-                              <div className="flex-1 content p-3 shadow-md rounded bg-white position-relative">
+                              <div className="flex-1 content p-3 shadow-lg rounded bg-white position-relative">
                                 <StarRatings
                                   items={3}
                                   rating={review.rating}

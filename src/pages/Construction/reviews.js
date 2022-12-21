@@ -72,8 +72,11 @@ class Reviews extends Component {
     return (
       <React.Fragment>
         <Container
-          className="shadow-lg my-5 px-5 py-5 rounded"
-          style={{ backgroundColor: '#9dce66 ' }}
+          className=" my-5 px-5 py-5 rounded"
+          style={{
+            backgroundColor: '#9dce66 ',
+            boxShadow: '0 0.5px 30px #5A5A5A inset',
+          }}
         >
           {/* section title */}
           <SectionTitle

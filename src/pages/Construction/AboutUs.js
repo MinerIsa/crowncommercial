@@ -147,13 +147,13 @@ export default class AboutUs extends Component {
           </Row>
           <Row className="align-items-center mt-5">
             <Col lg={4} md={3} className="col-lg-4 col-md-3">
-              <h5 className="text-muted mb-0 shadow-lg p-3 rounded bg-white">
+              <h5 className="text-muted mb-0 shadow-sm p-3 rounded bg-white">
                 Trusted by over 500 businesses in the Chicagoland area.
               </h5>
             </Col>
 
             <Col lg={8} md={9} className="mt-4 pt-0 mt-sm-0 pt-sm-0">
-              <div className="rounded shadow bg-white p-3 shadow-lg">
+              <div className="rounded bg-white p-3 shadow-md">
                 <Row className="justify-content-center">
                   <Col lg="4" className="text-center">
                     <img

@@ -29,6 +29,7 @@
     "react-drawer": "^1.3.4",
     "react-fade-in": "^2.0.1",
     "react-flatpickr": "^3.10.13",
+    "react-hover-animation": "^2.1.1",
     "react-image-lightbox": "^5.1.4",
     "react-modal-video": "^1.2.9",
     "react-parallax": "^3.5.1",
